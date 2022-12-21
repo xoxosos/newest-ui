@@ -1,2 +1,2 @@
-import newButton from './button.vue'
+import newButton from './newButton.vue'
 export default newButton
