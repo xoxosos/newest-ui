@@ -1,0 +1,15 @@
+$prefix: newest;
+
+:root {
+  --color-primary: #409eff;
+}
+$color-primary:#0088ed;
+$newest-border-radius-base:4px;
+$newest-border-font-size-base:14px;
+$newest-button-border-color:#dcdfe6;
+$newest-border: 1px solid #dcdfe6;
+$newest-button-font-weight:500;
+$newest-button-text-color:#606266;
+@mixin colors() {
+  primary: var(--color-primary);
+}

@@ -1,4 +1,4 @@
-import newButton from "./button/index.js";
+import newButton from "./components/button/index.js";
 
 const install = (app) => {
     app.use(newButton);
