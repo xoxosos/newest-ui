@@ -1,10 +1,9 @@
 <script setup>
-
-import NewButton from "../packages/button/newButton.vue";
+ // import {newButton} from "newest-ui";
 </script>
 
 <template>
-  <NewButton type="success">success</NewButton>
+  <newButton type="success">11</newButton>
 </template>
 
 <style scoped>

@@ -5,6 +5,11 @@
     </button>
   </div>
 </template>
+<script>
+  export default {
+    name:"newButton"
+  }
+</script>
 <script setup>
 import {computed} from "vue";
 const props = defineProps({

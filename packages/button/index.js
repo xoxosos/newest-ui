@@ -1,5 +1,5 @@
 
-import newButton from "./newButton.vue";
+import newButton from "./button.vue";
 newButton.install = (app) => {
     app.component(newButton.name, newButton);
 };
