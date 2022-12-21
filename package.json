@@ -21,7 +21,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "newest-ui": "^0.1.4",
+    "newest-ui": "^0.1.5",
     "vue": "^3.2.45"
   },
   "devDependencies": {
