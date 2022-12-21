@@ -1,6 +1,6 @@
 <template>
   <div :class="newestClass">
-    <button class="testButtonClass">
+    <button>
       <slot></slot>
     </button>
   </div>

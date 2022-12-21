@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "LinRenJie",
   "files": [
-    "dist"
+    "dist/*"
   ],
   "main": "./dist/newest-ui.umd.js",
   "module": "./dist/newest-ui.es.js",

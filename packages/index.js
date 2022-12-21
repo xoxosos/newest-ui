@@ -1,10 +1,12 @@
+import newButton from "./button/index.js";
 
-import newButton from "./button/index"; // 引入封装好的组件
-export { newButton } //实现按需引入*
-const components = [newButton];
-const install = function(App, options) {
-    components.forEach((component) => {
-        App.component(component.name,component);
-    });
+const install = (app) => {
+    app.use(newButton);
 };
-export default { install } // 批量的引入*
+const newestUI = {
+    install,
+};
+export {
+    newButton
+};
+export default newestUI;
