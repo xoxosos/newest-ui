@@ -1,12 +1,9 @@
 import newButton from "./components/button/index.js";
-
+const components = [newButton]
 const install = (app) => {
-    app.use(newButton);
+    components.map(component => app.use(component))
 };
-const newestUI = {
+export default {
     install,
+    ...components
 };
-export {
-    newButton
-};
-export default newestUI;

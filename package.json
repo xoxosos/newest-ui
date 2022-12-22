@@ -3,6 +3,7 @@
   "version": "0.1.6",
   "private": false,
   "license": "MIT",
+  "type": "module",
   "author": "LinRenJie",
   "files": [
     "dist/*"
@@ -21,7 +22,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "newest-ui": "^0.1.5",
+    "newest-ui": "^0.1.6",
     "vue": "^3.2.45"
   },
   "devDependencies": {

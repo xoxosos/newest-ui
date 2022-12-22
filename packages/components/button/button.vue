@@ -1,9 +1,7 @@
 <template>
   <button :class="newestClass">
     <span>
-        <Icon class="icon" v-if="iconFont.iconName && iconFont.iconPosition != 'right'" :name="iconFont.iconName" />
-        <slot />
-        <Icon class="icon" v-if="iconFont.iconPosition == 'right' && iconFont.iconName" :name="iconFont.iconName" />
+        <slot></slot>
     </span>
   </button>
 </template>
